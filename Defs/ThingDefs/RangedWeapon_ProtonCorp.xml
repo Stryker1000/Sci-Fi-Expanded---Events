@@ -6,7 +6,7 @@
     <!-- Revolver -->
     
     <ThingDef ParentName="BaseBullet">
-        <defName>Bullet_ProtonRevolverGen1</defName>
+        <defName>Bullet_ProtonRevolverGenOne</defName>
         <label>Proton revolver bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -21,7 +21,7 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>Gun_ProtonRevolverGen1</defName>
+        <defName>Gun_ProtonRevolverGenOne</defName>
         <label>Proton revolver</label>
         <description>A standard issue revolver for Proton Corp Soldiers. While it is a basic weapon, it can be deadly in the right hands.</description>
         <possessionCount>1</possessionCount>
@@ -51,18 +51,18 @@
             <Steel>30</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <researchPrerequisite>ProtonRangedGen1</researchPrerequisite>
         <recipeMaker>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-            <displayPriority>400</displayPriority>
+          <researchPrerequisite>ProtonRangedGenOne</researchPrerequisite>
+          <skillRequirements>
+              <Crafting>5</Crafting>
+          </skillRequirements>
+          <displayPriority>400</displayPriority>
         </recipeMaker>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ProtonRevolverGen1</defaultProjectile>
+                <defaultProjectile>Bullet_ProtonRevolverGenOne</defaultProjectile>
                 <warmupTime>0.3</warmupTime>
                 <range>25.9</range>
                 <soundCast>Shot_Revolver</soundCast>
@@ -94,7 +94,7 @@
   <!-- Shotgun -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_ProtonChainShotgunGen1</defName>
+    <defName>Bullet_ProtonChainShotgunGenOne</defName>
     <label>Proton shotgun blast</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -110,7 +110,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Gun_ProtonChainShotgunGen1</defName>
+    <defName>Gun_ProtonChainShotgunGenOne</defName>
     <label>Proton Issue Automatic Shotgun</label>
     <description>A magazine-fed fully automatic shotgun that was created by the Proton Corp. Similar to the standard chain shotgun it has burst fire but it is even more deadly at close and medium range. As a tradeoff it is even more unreliable than the standard chain shotgun at long range.</description>
     <graphicData>
@@ -122,8 +122,7 @@
       <li>ShortShots</li>
     </weaponClasses>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <researchPrerequisite>ProtonRangedGen1</researchPrerequisite>
+      <researchPrerequisite>ProtonRangedGenOne</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -148,7 +147,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_ProtonChainShotgun</defaultProjectile>
+        <defaultProjectile>Bullet_ProtonChainShotgunGenOne</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>12.9</range>
         <burstShotCount>3</burstShotCount>
@@ -186,7 +185,7 @@
   <!-- Assault Rifle -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_ProtonAssaultRifleGen1</defName>
+    <defName>Bullet_ProtonAssaultRifleGenOne</defName>
     <label>Proton assault rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -200,7 +199,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Gun_ProtonAssaultRifleGen1</defName>
+    <defName>Gun_ProtonAssaultRifleGenOne</defName>
     <label>proton assault rifle</label>
     <description>An assault rifle created by the Proton Corp. It's an improvement over the standard assault rifle in basically every way.</description>
     <graphicData>
@@ -209,8 +208,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <researchPrerequisite>ProtonRangedGen1</researchPrerequisite>
+      <researchPrerequisite>ProtonRangedGenOne</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -235,7 +233,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_ProtonAssaultRifleGen1</defaultProjectile>
+        <defaultProjectile>Bullet_ProtonAssaultRifleGenOne</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>40</range>
         <burstShotCount>5</burstShotCount>
@@ -273,7 +271,7 @@
   <!-- Gen 2 Guns -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_ProtonRevolverGen2</defName>
+    <defName>Bullet_ProtonRevolverGenTwo</defName>
     <label>Proton revolver bullet</label>
     <graphicData>
         <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -288,7 +286,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Gun_ProtonRevolverGen2</defName>
+    <defName>Gun_ProtonRevolverGenTwo</defName>
     <label>Proton revolver</label>
     <description>A high tech revolver created by the Proton Corp. It's deadlier, faster, and more accurate than any other revolver.</description>
     <possessionCount>1</possessionCount>
@@ -311,26 +309,26 @@
         <li>SimpleGun</li>
         <li>Revolver</li>
     </weaponTags>
-        <weaponClasses>
+      <weaponClasses>
         <li>RangedLight</li>
-    </weaponClasses>
+      </weaponClasses>
     <costList>
         <Steel>30</Steel>
         <ComponentIndustrial>10</ComponentIndustrial>
         <ComponentSpacer>3</ComponentSpacer>
     </costList>
-    <researchPrerequisite>ProtonRangedGen2</researchPrerequisite>
     <recipeMaker>
-        <skillRequirements>
-            <Crafting>8</Crafting>
-        </skillRequirements>
-        <displayPriority>400</displayPriority>
+      <researchPrerequisite>ProtonRangedGenTwo</researchPrerequisite>
+      <skillRequirements>
+          <Crafting>8</Crafting>
+      </skillRequirements>
+      <displayPriority>400</displayPriority>
     </recipeMaker>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>Bullet_ProtonRevolverGen2</defaultProjectile>
+            <defaultProjectile>Bullet_ProtonRevolverGenTwo</defaultProjectile>
             <warmupTime>0.3</warmupTime>
             <range>30</range>
             <soundCast>Shot_Revolver</soundCast>
@@ -362,7 +360,7 @@
 <!-- Shotgun -->
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_ProtonChainShotgunGen2</defName>
+<defName>Bullet_ProtonChainShotgunGenTwo</defName>
 <label>Proton shotgun blast</label>
 <graphicData>
   <texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -378,7 +376,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-<defName>Gun_ProtonChainShotgunGen2</defName>
+<defName>Gun_ProtonChainShotgunGenTwo</defName>
 <label>Second Generation Proton Automatic Shotgun</label>
 <description>A magazine-fed fully automatic shotgun that was created by the Proton Corp. It has extremely powerful burst fire and is even deadlier and more accurate than it's predecessor</description>
 <graphicData>
@@ -390,8 +388,7 @@
   <li>ShortShots</li>
 </weaponClasses>
 <recipeMaker>
-  <researchPrerequisite>GasOperation</researchPrerequisite>
-  <researchPrerequisite>ProtonRangedGen2</researchPrerequisite>
+  <researchPrerequisite>ProtonRangedGenTwo</researchPrerequisite>
   <skillRequirements>
     <Crafting>7</Crafting>
   </skillRequirements>
@@ -416,7 +413,7 @@
   <li>
     <verbClass>Verb_Shoot</verbClass>
     <hasStandardCommand>true</hasStandardCommand>
-    <defaultProjectile>Bullet_ProtonChainShotgunGen2</defaultProjectile>
+    <defaultProjectile>Bullet_ProtonChainShotgunGenTwo</defaultProjectile>
     <warmupTime>1.00</warmupTime>
     <range>20</range>
     <burstShotCount>4</burstShotCount>
@@ -454,7 +451,7 @@
 <!-- Assault Rifle -->
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_ProtonAssaultRifleGen2</defName>
+<defName>Bullet_ProtonAssaultRifleGenTwo</defName>
 <label>Proton assault rifle bullet</label>
 <graphicData>
   <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -468,7 +465,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-<defName>Gun_ProtonAssaultRifleGen2</defName>
+<defName>Gun_ProtonAssaultRifleGenTwo</defName>
 <label>proton assault rifle</label>
 <description>The second generation of assault rifle created by the Proton Corp.</description>
 <graphicData>
@@ -477,8 +474,7 @@
 </graphicData>
 <soundInteract>Interact_Rifle</soundInteract>
 <recipeMaker>
-  <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-  <researchPrerequisite>ProtonRangedGen1</researchPrerequisite>
+  <researchPrerequisite>ProtonRangedGenOne</researchPrerequisite>
   <skillRequirements>
     <Crafting>7</Crafting>
   </skillRequirements>
@@ -503,7 +499,7 @@
   <li>
     <verbClass>Verb_Shoot</verbClass>
     <hasStandardCommand>true</hasStandardCommand>
-    <defaultProjectile>Bullet_ProtonAssaultRifleGen2</defaultProjectile>
+    <defaultProjectile>Bullet_ProtonAssaultRifleGenTwo</defaultProjectile>
     <warmupTime>1.0</warmupTime>
     <range>40</range>
     <burstShotCount>5</burstShotCount>

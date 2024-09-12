@@ -26,7 +26,7 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ProtonRangedGen1</defName>
+        <defName>ProtonRangedGenOne</defName>
         <label>Generation 1 Proton Corp Guns</label>
         <description>The first generation of guns from the Proton Corp. Developed long ago these guns are fairly rudimentary but can still be deadly in the right hands.</description>
         <tab>ScifiExpanded</tab>
@@ -41,7 +41,7 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ProtonMeleeGen1</defName>
+        <defName>ProtonMeleeGenOne</defName>
         <label>Generation 1 Proton Corp Melee Weapons</label>
         <description>The first generation of melee weapons from the Proton Corp. Developed long ago these weapons are fairly rudimentary but can still be deadly in the right hands.</description>
         <tab>ScifiExpanded</tab>
@@ -55,7 +55,7 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ProtonArmorGen1</defName>
+        <defName>ProtonArmorGenOne</defName>
         <label>Generation 1 Proton Corp Armor</label>
         <description>The first generation of armor from the Proton Corp. Developed long ago this armor is fairly rudimentary but can still protect your colonists.</description>
         <tab>ScifiExpanded</tab>
@@ -70,14 +70,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ProtonArmorGen2</defName>
+        <defName>ProtonArmorGenTwo</defName>
         <label>Generation 2 Proton Corp Armor</label>
         <description>The second generation of armor from the Proton Corp. Along with developing very protective armor they also created technology that can increase movement and workspeed</description>
         <tab>ScifiExpanded</tab>
         <baseCost>6000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>ProtonArmorGen1</li>
+            <li>ProtonArmorGenOne</li>
             <li>ReconArmor</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
@@ -85,28 +85,28 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>ProtonRangedGen2</defName>
+        <defName>ProtonRangedGenTwo</defName>
         <label>Generation 2 Proton Corp Guns</label>
         <description>The second generation of Guns from the Proton Corp. These weapons are advanced and extremely deadly.</description>
         <tab>ScifiExpanded</tab>
         <baseCost>6000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>ProtonRangedGen1</li>
+            <li>ProtonRangedGenOne</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>ProtonMeleeGen2</defName>
+        <defName>ProtonMeleeGenTwo</defName>
         <label>Generation 2 Proton Corp Melee Weapons</label>
         <description>The second generation of Melee Weapons from Proton Corp. The Proton Corp developed a large selection of Melee weapons, all very deadly. Along with weapons menat for dealing damage in wartime, they also discovered some of these are very useful for more menial work, such as farming.</description>
         <tab>ScifiExpanded</tab>
         <baseCost>6000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>ProtonMeleeGen1</li>
+            <li>ProtonMeleeGenOne</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
         <researchViewY>5.00</researchViewY>

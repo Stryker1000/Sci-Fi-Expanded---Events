@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef Name="BasePlasmaMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Industrial</techLevel>
+        <smeltable>true</smeltable>
+        <burnableByRecipe>true</burnableByRecipe>
+        <thingCategories>
+          <li>WeaponsMelee</li>
+        </thingCategories>
+        <weaponClasses>
+          <li>Melee</li>
+        </weaponClasses>
+        <relicChance>1</relicChance>
+        <recipeMaker>
+          <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+          <workSkill>Crafting</workSkill>
+          <effectWorking>Smith</effectWorking>
+          <soundWorking>Recipe_Smith</soundWorking>
+          <recipeUsers>
+            <li>TableMachining</li>
+            <li>FabricationBench</li>
+          </recipeUsers>
+          <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+        <inspectorTabs>
+          <li>ITab_Art</li>
+        </inspectorTabs>
+        <tradeTags>
+          <li>WeaponMelee</li>
+        </tradeTags>
+      </ThingDef>
+
+</Defs>

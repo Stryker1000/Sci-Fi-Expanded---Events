@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<defs>
+<Defs>
 
     <!-- Gen 1 Proton Corp Weapons -->
     
     <!-- Plasma Sword -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_ProtonPlasmaSwordGen1</defName>
+    <ThingDef ParentName="BasePlasmaMeleeWeapon">
+        <defName>MeleeWeapon_ProtonPlasmaSwordGenOne</defName>
         <label>Plasma Sword Generation 1</label>
         <description>A sword created by the Proton Corp. The sword seems to radiate heat, cutting through simple armor as though it's nothing, though it still seems somewhat rudimentary and higher tiers of armor would deflect it easily.</description>
         <possessionCount>1</possessionCount>
@@ -19,7 +19,7 @@
         <techLevel>Industrial</techLevel>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <weaponTags>
-          <li>IndustrialMeleeDecent</li>
+          <li>MeleeSharp</li>
         </weaponTags>
         <statBases>
           <WorkToMake>20000</WorkToMake>
@@ -45,30 +45,38 @@
             <label>point</label>
             <capacities>
               <li>Stab</li>
-              <li>Burn</li>
             </capacities>
             <power>18</power>
             <armorPenetration>0.60</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>18</amount>
+                <chance>0.6</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
           <li>
             <label>edge</label>
             <capacities>
               <li>Cut</li>
-              <li>Burn</li>
             </capacities>
             <power>18</power>
             <armorPenetration>0.60</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>18</amount>
+                <chance>0.6</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGen1</researchPrerequisite>
+          <researchPrerequisite>ProtonMeleeGenOne</researchPrerequisite>
           <skillRequirements>
-            <recipeUsers>
-                <li>Machining Table</li>
-                <li>Fabrication Bench</li>
-              </recipeUsers>
             <Crafting>6</Crafting>
           </skillRequirements>
           <displayPriority>410</displayPriority>
@@ -77,9 +85,9 @@
     
     <!-- Plasma Knife -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_ProtonPlasmaKnife</defName>
-        <label>plasma knife</label>
+    <ThingDef ParentName="BasePlasmaMeleeWeapon">
+        <defName>MeleeWeapon_ProtonPlasmaKnifeGenOne</defName>
+        <label>generation one plasma knife</label>
         <techLevel>Industrial</techLevel>
         <!-- Change -->
         <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.</description>
@@ -91,10 +99,10 @@
 
         <!-- Might need to make seperate tag for proton weapons, melee, ranged, and maybe for the materials too -->
         <weaponTags>
-          <li>IndustrialMeleeBasic</li>
+          <li>MeleeSharp</li>
         </weaponTags>
         <weaponClasses>
-          <li>Industrial</li>
+          <li>MeleePiercer</li>
         </weaponClasses>
         <statBases>
           <WorkToMake>12000</WorkToMake>
@@ -120,29 +128,37 @@
             <label>blade</label>
             <capacities>
               <li>Cut</li>
-              <li>Burn</li>
             </capacities>
             <power>14</power>
             <armorPenetration>0.50</armorPenetration>
             <cooldownTime>1.5</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>14</amount>
+                <chance>0.6</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
           <li>
             <label>point</label>
             <capacities>
               <li>Stab</li>
-              <li>Burn</li>
             </capacities>
             <power>15</power>
             <armorPenetration>0.50</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>15</amount>
+                <chance>0.6</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGen1</researchPrerequisite>
-          <recipeUsers>
-            <li>Machining Table</li>
-            <li>Fabrication Bench</li>
-          </recipeUsers>
+          <researchPrerequisite>ProtonMeleeGenOne</researchPrerequisite>
           <skillRequirements>
             <Crafting>6</Crafting>
           </skillRequirements>
@@ -154,8 +170,8 @@
 
       <!-- Plasma Sword Gen 2 (Check to make sure everything has been properly changed-->
 
-      <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_ProtonPlasmaSwordGen2</defName>
+      <ThingDef ParentName="BasePlasmaMeleeWeapon">
+        <defName>MeleeWeapon_ProtonPlasmaSwordGenTwo</defName>
         <label>Plasma Sword Generation 2</label>
         <description>A second generation sword created by the Proton Corp. The sword seems to radiate heat, it can cut through solid metal like it's butter. It's very deadly and can cut through marine armor</description>
         <possessionCount>1</possessionCount>
@@ -167,7 +183,8 @@
         <techLevel>Spacer</techLevel>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <weaponTags>
-          <li>IndustrialMeleeDecent</li>
+            <!-- Probably wrong, might need to create new tag -->
+          <li>SpacerMeleeDecent</li>
         </weaponTags>
         <statBases>
           <WorkToMake>40000</WorkToMake>
@@ -193,42 +210,50 @@
             <label>point</label>
             <capacities>
               <li>Stab</li>
-              <li>Burn</li>
             </capacities>
             <power>24</power>
             <armorPenetration>1.00</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>24</amount>
+                <chance>0.75</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
           <li>
             <label>edge</label>
             <capacities>
               <li>Cut</li>
-              <li>Burn</li>
             </capacities>
             <power>24</power>
             <armorPenetration>1.00</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>24</amount>
+                <chance>0.75</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGen2</researchPrerequisite>
+          <researchPrerequisite>ProtonMeleeGenTwo</researchPrerequisite>
           <skillRequirements>
-            <recipeUsers>
-                <li>Machining Table</li>
-                <li>Fabrication Bench</li>
-              </recipeUsers>
             <Crafting>9</Crafting>
           </skillRequirements>
           <displayPriority>410</displayPriority>
         </recipeMaker>
       </ThingDef>
     
-    <!-- Plasma Knife (Below is gen two but nothing has been changed yet) -->
+    <!-- Plasma Knife Gen Two -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_ProtonPlasmaKnife</defName>
-        <label>plasma knife</label>
-        <techLevel>Industrial</techLevel>
+    <ThingDef ParentName="BasePlasmaMeleeWeapon">
+        <defName>MeleeWeapon_ProtonPlasmaKnifeGenTwo</defName>
+        <label>generation two plasma knife</label>
+        <techLevel>Spacer</techLevel>
         <!-- Change -->
         <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.</description>
         <graphicData>
@@ -242,18 +267,18 @@
           <li>IndustrialMeleeBasic</li>
         </weaponTags>
         <weaponClasses>
-          <li>Industrial</li>
+          <li>MeleePiercer</li>
         </weaponClasses>
         <statBases>
-          <WorkToMake>12000</WorkToMake>
-          <Mass>0.5</Mass>
+          <WorkToMake>25000</WorkToMake>
+          <Mass>0.75</Mass>
         </statBases>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <burnableByRecipe>false</burnableByRecipe>
         <costList>
             <Steel>30</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-            <!-- Might want to add spacer components, depends on if I'm going to make a new material that they have to have to make the weapons-->
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <tools>
           <li>
@@ -268,34 +293,42 @@
             <label>blade</label>
             <capacities>
               <li>Cut</li>
-              <li>Burn</li>
             </capacities>
-            <power>14</power>
-            <armorPenetration>0.50</armorPenetration>
+            <power>17</power>
+            <armorPenetration>0.90</armorPenetration>
             <cooldownTime>1.5</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>17</amount>
+                <chance>0.75</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
           <li>
             <label>point</label>
             <capacities>
               <li>Stab</li>
-              <li>Burn</li>
             </capacities>
-            <power>15</power>
-            <armorPenetration>0.50</armorPenetration>
+            <power>18</power>
+            <armorPenetration>0.90</armorPenetration>
             <cooldownTime>2</cooldownTime>
+            <extraMeleeDamages>
+                <li>
+                <def>Flame</def>
+                <amount>18</amount>
+                <chance>0.75</chance> <!-- May need to change chance and damage value -->
+                </li>
+            </extraMeleeDamages>
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGen1</researchPrerequisite>
-          <recipeUsers>
-            <li>Machining Table</li>
-            <li>Fabrication Bench</li>
-          </recipeUsers>
+          <researchPrerequisite>ProtonMeleeGenOne</researchPrerequisite>
           <skillRequirements>
-            <Crafting>6</Crafting>
+            <Crafting>9</Crafting>
           </skillRequirements>
           <displayPriority>310</displayPriority>
         </recipeMaker>
       </ThingDef>
 
-</defs>
+</Defs>
