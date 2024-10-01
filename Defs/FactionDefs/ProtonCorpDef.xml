@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <FactionDef ParentName="OutlanderFactionBase">
+        <defName>ProtonCorp</defName>
+        <label>proton corp</label>
+        <description>A group of outcasts mostly composed of glitterworld soldiers and researchers. Although they initially started off as a ragtag group of misfits, their new technology soon made them a force to be reckoned with all across the galaxy. They don't have many bases on a distant rimworld such as this one. Still, they could be an extremely helpful ally, or a dangerous enemy.</description>
+        <colorSpectrum>
+            <li>(0, 0, 0)</li>
+            <li>(255, 255, 255)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>10</configurationListOrderPriority>
+    </FactionDef>
+
+</Defs>

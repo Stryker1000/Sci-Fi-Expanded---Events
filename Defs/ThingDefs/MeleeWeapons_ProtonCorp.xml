@@ -8,7 +8,7 @@
 
     <ThingDef ParentName="BasePlasmaMeleeWeapon">
         <defName>MeleeWeapon_ProtonPlasmaSwordGenOne</defName>
-        <label>Plasma Sword Generation 1</label>
+        <label>Plasma Sword</label>
         <description>A sword created by the Proton Corp. The sword seems to radiate heat, cutting through simple armor as though it's nothing, though it still seems somewhat rudimentary and higher tiers of armor would deflect it easily.</description>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -20,6 +20,8 @@
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <weaponTags>
           <li>MeleeSharp</li>
+          <li>PlasmaSwordGenOne</li>
+          <li>PlasmaWeapon</li>
         </weaponTags>
         <statBases>
           <WorkToMake>20000</WorkToMake>
@@ -87,7 +89,7 @@
 
     <ThingDef ParentName="BasePlasmaMeleeWeapon">
         <defName>MeleeWeapon_ProtonPlasmaKnifeGenOne</defName>
-        <label>generation one plasma knife</label>
+        <label>Plasma Knife</label>
         <techLevel>Industrial</techLevel>
         <!-- Change -->
         <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.</description>
@@ -100,6 +102,8 @@
         <!-- Might need to make seperate tag for proton weapons, melee, ranged, and maybe for the materials too -->
         <weaponTags>
           <li>MeleeSharp</li>
+          <li>PlasmaKnifeGenOne</li>
+          <li>PlasmaWeapon</li>
         </weaponTags>
         <weaponClasses>
           <li>MeleePiercer</li>
@@ -171,8 +175,8 @@
       <!-- Plasma Sword Gen 2 (Check to make sure everything has been properly changed-->
 
       <ThingDef ParentName="BasePlasmaMeleeWeapon">
-        <defName>MeleeWeapon_ProtonPlasmaSwordGenTwo</defName>
-        <label>Plasma Sword Generation 2</label>
+        <defName>MeleeWeapon_ProtonPlasmaSwordElite</defName>
+        <label>Elite Plasma Sword</label>
         <description>A second generation sword created by the Proton Corp. The sword seems to radiate heat, it can cut through solid metal like it's butter. It's very deadly and can cut through marine armor</description>
         <possessionCount>1</possessionCount>
         <graphicData>
@@ -183,8 +187,9 @@
         <techLevel>Spacer</techLevel>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <weaponTags>
-            <!-- Probably wrong, might need to create new tag -->
           <li>SpacerMeleeDecent</li>
+          <li>PlasmaSwordElite</li>
+          <li>PlasmaWeapon</li>
         </weaponTags>
         <statBases>
           <WorkToMake>40000</WorkToMake>
@@ -240,7 +245,7 @@
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGenTwo</researchPrerequisite>
+          <researchPrerequisite>ProtonMeleeElite</researchPrerequisite>
           <skillRequirements>
             <Crafting>9</Crafting>
           </skillRequirements>
@@ -251,8 +256,8 @@
     <!-- Plasma Knife Gen Two -->
 
     <ThingDef ParentName="BasePlasmaMeleeWeapon">
-        <defName>MeleeWeapon_ProtonPlasmaKnifeGenTwo</defName>
-        <label>generation two plasma knife</label>
+        <defName>MeleeWeapon_ProtonPlasmaKnifeElite</defName>
+        <label>Elite Plasma Knife</label>
         <techLevel>Spacer</techLevel>
         <!-- Change -->
         <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.</description>
@@ -265,6 +270,8 @@
         <!-- Might need to make seperate tag for proton weapons, melee, ranged, and maybe for the materials too -->
         <weaponTags>
           <li>IndustrialMeleeBasic</li>
+          <li>PlasmaKnifeElite</li>
+          <li>PlasmaWeapon</li>
         </weaponTags>
         <weaponClasses>
           <li>MeleePiercer</li>
@@ -323,7 +330,7 @@
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>ProtonMeleeGenOne</researchPrerequisite>
+          <researchPrerequisite>ProtonMeleeElite</researchPrerequisite>
           <skillRequirements>
             <Crafting>9</Crafting>
           </skillRequirements>

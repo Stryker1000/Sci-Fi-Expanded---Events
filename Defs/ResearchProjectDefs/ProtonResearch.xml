@@ -19,7 +19,7 @@
         have a faction relations prerequisite for researcj-->
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>Machining</li>
+            <li>Fabrication</li>
         </prerequisites>
         <researchViewX>0.00</researchViewX>
         <researchViewY>2.50</researchViewY>
@@ -34,7 +34,7 @@
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>ProtonTechnology</li>
-            <li>Gunsmithing</li>
+            <li>PrecisionRifling</li>
         </prerequisites>
         <researchViewX>1.00</researchViewX>
         <researchViewY>0</researchViewY>
@@ -70,7 +70,7 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>ProtonArmorGenTwo</defName>
+        <defName>ProtonArmorElite</defName>
         <label>Generation 2 Proton Corp Armor</label>
         <description>The second generation of armor from the Proton Corp. Along with developing very protective armor they also created technology that can increase movement and workspeed</description>
         <tab>ScifiExpanded</tab>
@@ -85,7 +85,7 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>ProtonRangedGenTwo</defName>
+        <defName>ProtonRangedElite</defName>
         <label>Generation 2 Proton Corp Guns</label>
         <description>The second generation of Guns from the Proton Corp. These weapons are advanced and extremely deadly.</description>
         <tab>ScifiExpanded</tab>
@@ -99,7 +99,7 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>ProtonMeleeGenTwo</defName>
+        <defName>ProtonMeleeElite</defName>
         <label>Generation 2 Proton Corp Melee Weapons</label>
         <description>The second generation of Melee Weapons from Proton Corp. The Proton Corp developed a large selection of Melee weapons, all very deadly. Along with weapons menat for dealing damage in wartime, they also discovered some of these are very useful for more menial work, such as farming.</description>
         <tab>ScifiExpanded</tab>
