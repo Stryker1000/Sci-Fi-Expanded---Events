@@ -11,7 +11,7 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>president</leaderTitle>
+    <leaderTitle>Council Leader</leaderTitle>
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
     <techLevel>Spacer</techLevel>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>

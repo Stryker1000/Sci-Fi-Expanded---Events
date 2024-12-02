@@ -3,7 +3,7 @@
 <Defs>
     <PawnKindDef Name="ProtonSoldierBase" Abstract="True">
         <race>Human</race>
-        <defaultFactionType>Pirate</defaultFactionType>
+        <defaultFactionType>Mercenary</defaultFactionType>
         <chemicalAddictionChance>0.1</chemicalAddictionChance>
         <invNutrition>2.55</invNutrition>
         <itemQuality>Normal</itemQuality>
@@ -85,7 +85,7 @@
 
   <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
 
-  <PawnKindDef ParentName="MercenaryBase" Name="MercenaryMidTierBase" Abstract="True">
+  <PawnKindDef ParentName="MercenaryBase" Name="ProtonMidTierBase" Abstract="True">
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>700~1200</techHediffsMoney>
     <techHediffsTags>
@@ -97,8 +97,8 @@
     <initialWillRange>2~4</initialWillRange>
   </PawnKindDef>
 
-    <PawnKindDef ParentName="MercenaryMidTierBase" Name="MercenaryGunnerBase" Abstract="True">
-    <label>mercenary gunner</label>
+    <PawnKindDef ParentName="ProtonMidTierBase" Name="ProtonGunnerBase" Abstract="True">
+    <label>proton gunner</label>
     <combatPower>85</combatPower>
     <gearHealthRange>0.7~3.2</gearHealthRange>
     <apparelTags>
@@ -113,7 +113,7 @@
     <weaponMoney>330~650</weaponMoney>
     <weaponTags>
       <li>ProtonGunGenOne</li>
-      <li>ProtonGunGenTwo</li>
+      <li>ProtonGunElite</li>
     </weaponTags>
     <disallowedTraits>
       <li>Brawler</li>
@@ -137,21 +137,21 @@
     </skills>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryGunnerBase">
-    <defName>Mercenary_Gunner</defName>
+  <PawnKindDef ParentName="ProtonGunnerBase">
+    <defName>Proton_Gunner</defName>
     <initialResistanceRange>6~10</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryGunnerBase">
-    <defName>Mercenary_Gunner_Acidifier</defName>
+  <PawnKindDef ParentName="ProtonGunnerBase">
+    <defName>Proton_Gunner_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>10~16</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryMidTierBase" Name="MercenarySniperBase" Abstract="True">
-    <label>mercenary sniper</label>
+  <PawnKindDef ParentName="ProtonMidTierBase" Name="ProtonSniperBase" Abstract="True">
+    <label>proton sniper</label>
     <combatPower>110</combatPower>
     <gearHealthRange>0.7~3.2</gearHealthRange>
     <apparelTags>
@@ -184,22 +184,22 @@
     </skills>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenarySniperBase">
-    <defName>Mercenary_Sniper</defName>
+  <PawnKindDef ParentName="ProtonSniperBase">
+    <defName>Proton_Sniper</defName>
     <initialResistanceRange>13~20</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenarySniperBase">
-    <defName>Mercenary_Sniper_Acidifier</defName>
+  <PawnKindDef ParentName="ProtonSniperBase">
+    <defName>Proton_Sniper_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>14~23</initialResistanceRange>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="MercenaryMidTierBase" Name="MercenarySlasherBase" Abstract="True">
-    <defName>Mercenary_Slasher</defName>
-    <label>mercenary slasher</label>
+  <PawnKindDef ParentName="ProtonMidTierBase" Name="ProtonSlasherBase" Abstract="True">
+    <defName>Proton_Slasher</defName>
+    <label>proton slasher</label>
     <combatPower>140</combatPower>
     <canBeSapper>true</canBeSapper>
     <gearHealthRange>0.7~3.2</gearHealthRange>
@@ -209,7 +209,7 @@
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
       <li>ProtonGenOne</li>
-      <li>ProtonGenTwo</li>
+      <li>ProtonElite</li>
     </apparelTags>
     <apparelRequired>
       <li>Apparel_ShieldBelt</li>
@@ -219,7 +219,7 @@
     <weaponMoney>200~500</weaponMoney>
     <weaponTags>
       <li>ProtonSwordGenOne</li>
-      <li>ProtonSwordGenTwo</li>
+      <li>ProtonSwordElite</li>
     </weaponTags>
     <inventoryOptions>
       <skipChance>0.9</skipChance>
@@ -233,23 +233,23 @@
     <initialResistanceRange>19~29</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenarySlasherBase">
-    <defName>Mercenary_Slasher</defName>
+  <PawnKindDef ParentName="ProtonSlasherBase">
+    <defName>Proton_Slasher</defName>
     <initialResistanceRange>10~16</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenarySlasherBase">
-    <defName>Mercenary_Slasher_Acidifier</defName>
+  <PawnKindDef ParentName="ProtonSlasherBase">
+    <defName>Proton_Slasher_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>9~15</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryMidTierBase" Name="MercenaryHeavyBase">
-    <defName>Mercenary_Heavy</defName>
-    <label>heavy mercenary</label>
-    <labelPlural>heavy mercenaries</labelPlural>
+  <PawnKindDef ParentName="ProtonMidTierBase" Name="ProtonHeavyBase">
+    <defName>Proton_Heavy</defName>
+    <label>heavy proton soldier</label>
+    <labelPlural>heavy proton soldiers</labelPlural>
     <combatPower>140</combatPower>
     <gearHealthRange>0.7~3.2</gearHealthRange>
     <apparelTags>
@@ -259,13 +259,13 @@
       <li>IndustrialMilitaryAdvanced</li>
       <li>BeltDefensePop</li>
       <li>ProtonGenOne</li>
-      <li>ProtonGenTwo</li>
+      <li>ProtonElite</li>
     </apparelTags>
     <apparelMoney>200~350</apparelMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <weaponMoney>1200~1200</weaponMoney>
     <weaponTags>
-      <li>ProtonRifleGenTwo</li>
+      <li>ProtonRifleElite</li>
       <li>GunSingleUse</li>
       <li>Flamethrower</li>
     </weaponTags>
@@ -274,13 +274,13 @@
 
   <!-- Elite tier - merc elite, pirate boss -->
   
-  <PawnKindDef Abstract="True" Name="MercenaryEliteTierBase" ParentName="MercenaryBase">
+  <PawnKindDef Abstract="True" Name="ProtonEliteTierBase" ParentName="MercenaryBase">
     <combatPower>130</combatPower>
     <maxGenerationAge>45</maxGenerationAge>
     <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelTags>
-      <li>ProtonGenTwo</li>
+      <li>ProtonElite</li>
       <li>IndustrialMilitaryAdvanced</li>
       <li>SpacerMilitary</li>
       <li>BeltDefensePop</li>
@@ -289,7 +289,7 @@
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
     <weaponMoney>500~1400</weaponMoney>
     <weaponTags>
-      <li>ProtonGunGenTwo</li>
+      <li>ProtonGunElite</li>
     </weaponTags>
     <disallowedTraits>
       <li>Brawler</li>
@@ -306,7 +306,7 @@
     <initialWillRange>3~5</initialWillRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryEliteTierBase">
+  <PawnKindDef ParentName="ProtonEliteTierBase">
     <defName>ProtonCaptain</defName>
     <label>captain</label>
     <labelPlural>captains</labelPlural>
@@ -315,9 +315,9 @@
     <initialResistanceRange>20~30</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryEliteTierBase" Name="MercenaryEliteBase" Abstract="True">
-    <label>elite mercenary</label>
-    <labelPlural>elite mercenaries</labelPlural>
+  <PawnKindDef ParentName="ProtonEliteTierBase" Name="ProtonEliteBase" Abstract="True">
+    <label>elite proton soldier</label>
+    <labelPlural>elite proton soldiers</labelPlural>
     <inventoryOptions>
       <skipChance>0.9</skipChance>
       <subOptionsChooseOne>
@@ -335,17 +335,42 @@
     </skills>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="MercenaryEliteBase">
-    <defName>Mercenary_Elite</defName>
+  <PawnKindDef ParentName="ProtonEliteBase">
+    <defName>Proton_Elite</defName>
     <initialResistanceRange>20~30</initialResistanceRange>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="MercenaryEliteBase">
-    <defName>Mercenary_Elite_Acidifier</defName>
+  <PawnKindDef ParentName="ProtonEliteBase">
+    <defName>Proton_Elite_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>20~30</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ProtonEliteTierBase">
+    <defName>Proton_General</defName>
+    <label>proton general</label>
+    <labelPlural>proton generals</labelPlural>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineUltratech</thingDef>
+          <countRange>1~5</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>18~20</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>18~20</range>
+      </li>
+    </skills>
   </PawnKindDef>
 
 </Defs>

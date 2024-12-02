@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+      <IncidentDef>
+        <defName>OfferofBrotherhood</defName>
+        <label>offer of brotherhood</label>
+        <category>Special</category>
+        <targetTags>
+          <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ProtonCorp.IncidentWorker_OfferofBrotherhood</workerClass>
+        <letterLabel>An Offer of Brotherhood</letterLabel>
+        <letterText>Bzzt... Hello are you reading us. We are the proton corp. We have contacted you because we have determined you to have the minimum necessary technology to join our organization. We empathize with your ideals and would like to extend you an offer of brother and sisterhood. We will not force you to join but if you accept you will be granted to technology created by the Proton Corp.</letterText>
+        <letterDef>OfferofBrotherhood</letterDef>
+        <baseChance>0</baseChance>
+        <minRefireDays>9999</minRefireDays>
+        <requireColonistsPresent>True</requireColonistsPresent>
+      </IncidentDef>
+
+      <LetterDef ParentName="CustomChoiceLetterBase">
+        <defName>OfferofBrotherhood</defName>
+        <letterClass>ProtonCorp.ChoiceLetter_OfferofBrotherhood</letterClass>
+      </LetterDef>
+</Defs>

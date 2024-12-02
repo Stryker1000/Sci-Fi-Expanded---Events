@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\sci-fi expanded - events\\source\\classlibrary1\\incidentworker_offerofbrotherhood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|solutionrelative:incidentworker_offerofbrotherhood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\choiceletter_brotherhoodevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|solutionrelative:choiceletter_brotherhoodevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\sci-fi expanded - events\\source\\classlibrary1\\researchdef_protonresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D1A778-F20D-446B-A29C-6C54EFF08577}|ProtonCorp.csproj|solutionrelative:researchdef_protonresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResearchDef_ProtonResearch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\ResearchDef_ProtonResearch.cs",
+              "RelativeDocumentMoniker": "ResearchDef_ProtonResearch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\ResearchDef_ProtonResearch.cs",
+              "RelativeToolTip": "ResearchDef_ProtonResearch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:13:33.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncidentWorker_OfferofBrotherhood.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\IncidentWorker_OfferofBrotherhood.cs",
+              "RelativeDocumentMoniker": "IncidentWorker_OfferofBrotherhood.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\IncidentWorker_OfferofBrotherhood.cs",
+              "RelativeToolTip": "IncidentWorker_OfferofBrotherhood.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:10:04.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChoiceLetter_BrotherhoodEvent.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\ChoiceLetter_BrotherhoodEvent.cs",
+              "RelativeDocumentMoniker": "ChoiceLetter_BrotherhoodEvent.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Sci-Fi Expanded - Events\\Source\\ClassLibrary1\\ChoiceLetter_BrotherhoodEvent.cs",
+              "RelativeToolTip": "ChoiceLetter_BrotherhoodEvent.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:27:59.751Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

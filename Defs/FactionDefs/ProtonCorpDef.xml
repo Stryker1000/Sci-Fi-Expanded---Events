@@ -12,6 +12,7 @@
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>10</configurationListOrderPriority>
+        <fixedName>The Proton Corp</fixedName>
     </FactionDef>
 
 </Defs>

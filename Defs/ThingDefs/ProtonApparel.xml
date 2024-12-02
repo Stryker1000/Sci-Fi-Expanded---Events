@@ -17,7 +17,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
+      <texPath>Things/ProtonArmor/ProtonArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -57,7 +57,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
+      <wornGraphicPath>Things/ProtonArmor/ProtonArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -126,7 +126,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+      <texPath>Things/ProtonArmor/ProtonHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -160,7 +160,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/ProtonArmor/ProtonHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -221,7 +221,7 @@
     </recipeMaker>
   </ThingDef>
     <!-- ==================================== Proton Gen 2 =====================================-->
-
+<!--
     <ThingDef Name="ApparelArmorProtonEliteBase" ParentName="ArmorMachineableBase" Abstract="True">
       <techLevel>Spacer</techLevel>
       <recipeMaker>
@@ -438,5 +438,6 @@
         <displayPriority>100</displayPriority>
       </recipeMaker>
     </ThingDef>
+    -->
 
 </Defs>

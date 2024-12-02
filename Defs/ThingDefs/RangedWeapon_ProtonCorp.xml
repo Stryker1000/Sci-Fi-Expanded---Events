@@ -26,7 +26,7 @@
         <description>A standard issue revolver for Proton Corp Soldiers. While it is a basic weapon, it can be deadly in the right hands.</description>
         <possessionCount>1</possessionCount>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+            <texPath>Things/Weapons/Ranged/ProtonRevolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.4</uiIconScale>
@@ -115,7 +115,7 @@
     <label>Proton Shotgun</label>
     <description>A magazine-fed fully automatic shotgun that was created by the Proton Corp. Similar to the standard chain shotgun it has burst fire but it is even more deadly at close and medium range. As a tradeoff it is even more unreliable than the standard chain shotgun at long range.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ChainShotgun</texPath>
+      <texPath>Things/Weapons/Ranged/ProtonShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -205,7 +205,7 @@
     <label>Proton Assault Rifle</label>
     <description>An assault rifle created by the Proton Corp. It's an improvement over the standard assault rifle in basically every way.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+      <texPath>Things/Weapons/Ranged/ProtonRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
